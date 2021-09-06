@@ -61,6 +61,31 @@ print("Range: 0-1\nResult: " .. math.random()) --> outputs type 'float' between 
 print("Range: 0-10\nResult: " .. math.random(10)) --> outputs type 'int' between 0 to 10
 print("Range: 10-100\nResult: " .. math.random(10, 100)) --> outputs type 'int' between 10 to 100
 
+-- MATH operations --
+local x = 4
+local y = 2
+
+-- Results
+io.write("Addition: ", x+y, "\n")
+io.write("Subtraction: ", x-y, "\n")
+io.write("Multiplication: ", x*y, "\n")
+io.write("Division: ", x/y, "\n")
+io.write("Modulo: ", x%y, "\n")
+
+-- MATH functions --
+io.write("floor: ", math.floor(1.23), "\n")
+io.write("ceil:", math.ceil(1,23), "\n")
+io.write("Abs. value: ", math.abs(-1.23), "\n")
+io.write("Sin: ", math.sin(90), "\n")
+io.write("Power: ", math.pow(2, 3), "\n")
+io.write("Sqrt: ", math.sqrt(128, "\n"), "\n")
+io.write("Pi: ", math.pi, "\n")
+
+--[[
+    Lua Math library source: 
+    https://www.tutorialspoint.com/lua/lua_math_library.htm
+]]
+
 -- CONDITIONALS --
 -- Relational Operators : > < >= <= == ~=
 -- Logical Operators : and or not
@@ -110,3 +135,14 @@ if luaIsFun then io.write("1. Lua is fun!\n") end
 if luaIsFun then
     io.write("2. Lua is fun!\n")
 end
+
+-- STRING manipulation --
+prompt = "Lua is fun!"
+
+io.write("Size of the prompt: ", string.len(prompt), "\n")
+io.write("Replace 'Lua' with 'coding': ", string.gsub(prompt, "Lua", "Coding"), "\n")
+io.write("Index of 'fun': ", string.find(prompt, "fun"), "\n")
+
+-- Upper and lower only work with alphabetical characters
+io.write("Prompt in upper case: ", string.upper(prompt), "\n")
+io.write("Prompt in lower case: ", string.lower(prompt), "\n")
