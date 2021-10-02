@@ -5,6 +5,11 @@ string.rep('\n', 3) .. "Outputs:\n")
 -- Print out to command line
 print("Hello from Lua!")
 
+-- User input in Lua
+io.write("User input in Lua: ")
+userInput = io.read()
+print("You typed in: " .. "'" .. userInput .. "'")
+
 -- Comments in Lua
 -- This is a singel line comment
 
