@@ -1,16 +1,20 @@
+-- Create a function which will generate a table with alphabetical characters
 function populateTable(isUpperCase)
-    t = {}
+    t = {} -- instantiate an empty table
 
+    -- Switch between upper and lower case
     if isUpperCase then
         shift = 65
     else
         shift = 97
     end
 
+    -- Populate the table
     for k = 0, 25 do
         t[k] = string.char(k + shift)
     end
 
+    -- Return the populated table
     return t
 end
 
