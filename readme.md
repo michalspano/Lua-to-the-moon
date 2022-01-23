@@ -1,19 +1,26 @@
-# Lua-to-the-moon
-Currently under development.
+# Lua To The Moon - explore `Lua` by Examples
 
-## Execution
-```shell
-$ lua $FILE_PATH
+A __collection__ of `Lua` projects and programs to test one's familiarity with the programming language.
+
+## Running a `.lua` source code
+
+```sh
+$ lua foo.lua
 ```
+### Local `Lua` Configuration
 
-### Config
+___
 
-(Must be _set up_ properly to compile __Lua__ per the given example). <br>
-[__Lua__ Download][LINK1] <br>
-[__Lua__ Manual][LINK2]
+1. [__Lua Binary__][LINK1]
+2. [__Manual__][LINK2]
+
+### Remote Lua Development
+
+Relies on _tools_ such as [__Replit__][rep] and the like.
 
 Curated by @michalspano.
 
 <!-- LINKS AND REFS -->
-[LINK1]: https://www.lua.org/ftp/lua-5.4.3.tar.gz
+[LINK1]: http://luabinaries.sourceforge.net
 [LINK2]: http://www.lua.org/manual/5.4/readme.html
+[rep]: https://replit.com
