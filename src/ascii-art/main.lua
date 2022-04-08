@@ -1,3 +1,5 @@
+#!/usr/bin/env lua
+
 -- Displaying Ascii Art in Lua
 
 -- Colors
